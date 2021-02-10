@@ -19,8 +19,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/EyeSeeTea/d2-apy",
     author="EyeSeeTea",
-    author_email="hello@eyeseetea.com",
-    license="MIT",
+    author_email="info@eyeseetea.com",
+    license="GNU",
     classifiers=[
         "Development Status :: 1 - Beta",
         "Intended Audience :: Developers",
