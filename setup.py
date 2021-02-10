@@ -28,7 +28,7 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
     ],
-    packages=["reader"],
+    packages=["d2-apy"],
     include_package_data=True,
     install_requires=[
         "jsonobject", "requests"
