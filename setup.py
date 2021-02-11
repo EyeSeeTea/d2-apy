@@ -12,23 +12,24 @@ with open(os.path.join(HERE, "README.md")) as fid:
 
 # This call to setup() does all the work
 setup(
-    name="d2-apy",
+    name="d2apy",
     version="1.0.0",
     description="Dhis2 API wrapper",
-    long_description=README,
-    long_description_content_type="text/markdown",
-    url="https://github.com/EyeSeeTea/d2-apy",
+    long_description=open("README.md").read(),
+    license="GPLv3+",
+    url="https://github.com/EyeSeeTea/d2apy.git",
     author="EyeSeeTea",
     author_email="info@eyeseetea.com",
-    license="GNU",
     classifiers=[
-        "Development Status :: 1 - Beta",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
     ],
-    packages=["d2-apy"],
+    packages=["d2apy"],
     include_package_data=True,
     install_requires=[
         "jsonobject", "requests"
